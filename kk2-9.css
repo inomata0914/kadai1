@@ -1,0 +1,81 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+main {
+  width: 960px;
+  margin: 0 auto; /* 箱の中央寄せ */
+  padding: 50px 0;
+}
+.step-box {
+  width: 300px;
+  float: left;
+  margin-right: 30px; 
+  border: thin solid grey;
+  box-sizing: border-box;
+}
+.step-box:last-child {
+
+  margin-right: 0px; 
+
+}
+.step-img1{
+ background-image: url(img/flow01.png);
+ height: 170px;
+ width: 280px;
+ background-position: center;
+ background-size: cover;
+ margin: 0 auto
+}
+.step-img2{
+ background-image: url(img/flow02.png);
+ height: 170px;
+ width: 280px;
+ background-position: center;
+ background-size: cover;
+ margin: 0 auto
+}
+.step-img3{
+ background-image: url(img/flow03.png);
+ height: 170px;
+ width: 280px;
+ background-position: center;
+ background-size: cover;
+ margin: 0 auto
+}
+.step-num{
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 20px;
+  background-color: orange;
+}
+.text{
+  width: 280px;
+  margin: 0 auto
+}
+.title{
+  margin-left: 10px;
+}
+@media screen and (max-width:768px) {
+  main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.step-box {
+  float: none;
+
+  margin: 0 auto 20px;
+
+}
+.step-box:last-child{
+  margin-right: none;
+  margin: 0 auto 20px;
+}
