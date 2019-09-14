@@ -1,4 +1,4 @@
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,7 +32,8 @@ main {
  width: 280px;
  background-position: center;
  background-size: cover;
- margin: 0 auto
+ margin: auto;
+ margin-top: 10px;
 }
 .step-img2{
  background-image: url(img/flow02.png);
@@ -40,7 +41,8 @@ main {
  width: 280px;
  background-position: center;
  background-size: cover;
- margin: 0 auto
+ margin: auto;
+ margin-top: 10px;
 }
 .step-img3{
  background-image: url(img/flow03.png);
@@ -48,13 +50,15 @@ main {
  width: 280px;
  background-position: center;
  background-size: cover;
- margin: 0 auto
+ margin: auto;
+ margin-top: 10px;
 }
 .step-num{
   padding: 5px 10px;
   color: #fff;
   font-size: 20px;
   background-color: orange;
+  float: left;
 }
 .text{
   width: 280px;
@@ -71,6 +75,7 @@ main {
 
 .step-box {
   float: none;
+  width: 90%;
 
   margin: 0 auto 20px;
 
@@ -78,4 +83,18 @@ main {
 .step-box:last-child{
   margin-right: none;
   margin: 0 auto 20px;
+}
+.step-img1 {
+  width: 90%;
+}
+
+.step-img2{
+   width: 90%;
+}
+
+.step-img3{
+   width: 90%;
+}
+.text{
+  width: 90%;
 }
